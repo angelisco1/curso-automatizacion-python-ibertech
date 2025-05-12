@@ -1,0 +1,15 @@
+total 96
+drwxr-xr-x@ 3 angelisco1  staff    96 12 may 10:24 __pycache__
+-rw-r--r--  1 angelisco1  staff  3211  9 may 10:40 1-introduccion.py
+-rw-r--r--  1 angelisco1  staff  1623 12 may 13:40 10-ejecucion-comandos.py
+-rw-r--r--  1 angelisco1  staff   650  9 may 10:55 2-estructuras-de-control.py
+-rw-r--r--  1 angelisco1  staff  1971  9 may 12:15 3-funciones.py
+drwxr-xr-x  6 angelisco1  staff   192  9 may 12:21 4-modulos
+-rw-r--r--  1 angelisco1  staff  1602  9 may 13:28 5-comprehensions.py
+-rw-r--r--  1 angelisco1  staff  4613 12 may 09:54 6-poo.py
+-rw-r--r--  1 angelisco1  staff  1455 12 may 10:42 7-gestion-de-excepciones.py
+-rw-r--r--  1 angelisco1  staff  1004 12 may 11:01 8-decoradores.py
+-rw-r--r--  1 angelisco1  staff  4423 12 may 13:07 9-gestion-de-ficheros.py
+drwxr-xr-x  8 angelisco1  staff   256 12 may 13:25 created_files
+drwxr-xr-x  7 angelisco1  staff   224 12 may 13:24 files
+-rw-r--r--  1 angelisco1  staff  1391 12 may 10:22 persona.py
