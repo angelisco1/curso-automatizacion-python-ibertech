@@ -1,0 +1,5 @@
+usuario,password,confirm_password,email,captcha,error
+angel;1234;1234;angel@gmail.com;1234;El nombre que has introducido ya existe. Por favor, elige un nombre diferente.
+mike;1234;1234;kozinski@gmail.com;1234;El nombre que has introducido ya existe. Por favor, elige un nombre diferente.
+octavia;1234;1234;oblake@gmail.com;1234;El nombre que has introducido ya existe. Por favor, elige un nombre diferente.
+hasdjkasudajsdbnu12198ejwkqd;1234;1234;hasdjkasudajsdbnu12198ejwkqd@gmail.com;uasjdkausd;Falta el código de confirmación o es incorrecto.

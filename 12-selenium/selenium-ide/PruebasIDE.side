@@ -1,0 +1,115 @@
+{
+  "id": "e90ccec9-50ad-49c3-8a35-d2a755927c32",
+  "version": "2.0",
+  "name": "PruebasIDE",
+  "url": "https://www.google.es",
+  "tests": [{
+    "id": "831f222c-d2e8-489e-8bd0-9e4902392453",
+    "name": "TestDocumentacionSelenium",
+    "commands": [{
+      "id": "49dd8efe-f3c3-4cc2-8ed9-fbab66f95197",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de763339-9a79-46d0-95a8-8f025fe23b7d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1370x927",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fe12474-2b6a-418c-9e11-458910867a3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfeb6093-72a6-4f6b-9842-99bfa65b6d24",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "daa8cbde-74dc-471c-8721-077eb5706a9b",
+      "comment": "",
+      "command": "submit",
+      "target": "id=APjFqb",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24314123-923b-4693-a9fa-17c9c7a43d3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5151f6ca-56c2-4b3a-be12-e920a1cde314",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.d-1:nth-child(1)",
+      "targets": [
+        ["css=.d-1:nth-child(1)", "css:finder"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Selenium automates browsers. That's it!"
+    }, {
+      "id": "67fe2bfd-5169-4f7a-9e40-a3c64009aa32",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documentation",
+      "targets": [
+        ["linkText=Documentation", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='main_navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/documentation')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Documentation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8c0ba5-dd37-4e2f-bd74-dd097cfe6cec",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'The Selenium Browser Automation Project')]", "xpath:innerText"]
+      ],
+      "value": "The Selenium Browser Automation Project"
+    }]
+  }],
+  "suites": [{
+    "id": "539526c8-3793-4ed7-913f-cc858d4768f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["831f222c-d2e8-489e-8bd0-9e4902392453"]
+  }],
+  "urls": ["https://www.google.es/"],
+  "plugins": []
+}
